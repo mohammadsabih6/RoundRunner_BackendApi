@@ -1,5 +1,7 @@
 package com.example.exam.Model;
 
+import java.util.Optional;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -24,4 +26,7 @@ public class Cars {
     private String long_desc;
     private String image_link;
     private double rental_fee;
+    public Optional<Cars> getCars() {
+        return null;
+    }
 }

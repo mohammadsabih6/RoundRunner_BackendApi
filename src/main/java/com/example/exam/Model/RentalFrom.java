@@ -1,7 +1,7 @@
 package com.example.exam.Model;
 import java.sql.Date;
+import java.time.LocalDateTime;
 
-import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -23,8 +23,8 @@ public class RentalFrom {
     private String address;
     private String phone;
     private String driver_licences;
-    private Date pickdate;
-    private Date dropdate;
+    private LocalDateTime pickdate;
+    private LocalDateTime dropdate;
     private double rental_price;
     private double insurance;
     private double totalamount;
