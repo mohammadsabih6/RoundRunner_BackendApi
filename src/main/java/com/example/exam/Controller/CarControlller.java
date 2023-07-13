@@ -16,7 +16,7 @@ import com.example.exam.Model.Cars;
 import com.example.exam.Repo.CarsRepo;
 @CrossOrigin("*")
 @RestController
-@RequestMapping("/rental")
+@RequestMapping("/cars")
 public class CarControlller {
     @Autowired
     private CarsRepo carsRepo;
